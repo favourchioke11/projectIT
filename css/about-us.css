@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+     box-sizing: border-box;
+}
+body{
+    background: #bebebe;
+    padding: 20px;
+}
+.container h3{
+    text-align: center;
+    padding: 20px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.container div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: red;
+    padding: 30px;
+}
+.container div .resources{
+    width: 40%;
+    background-color: orange;
+    margin: 25px 0;
+    border-radius: 15px;
+}
+.container div .resources p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    word-spacing: 2px;
+}
+.container div .resources button{
+    background-color: #d31ed3;
+    margin: 30px 0;
+    color: #bebebe;
+    padding: 8px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.container div .helpline{
+    width: 40%;
+    background-color: orange;
+    margin: 25px 0;
+    border-radius: 15px;
+}
+.container div .helpline p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    word-spacing: 2px;
+}
+.container div .helpline button{
+    background-color: #d31ed3;
+    margin: 30px 0;
+    color: #bebebe;
+    padding: 10px 12px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.container div .library{
+    width: 40%;
+    background-color: #a000a0;
+    margin: 15px 0;
+    border-radius: 15px;
+    color: white;
+}
+.container div .library p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    word-spacing: 2px;
+}
+.container div .library button{
+    background-color: orange;
+    margin: 30px 0;
+    color: red;
+    padding: 12px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.value h3{
+    text-align: center;
+    padding: 20px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.value div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #f5a717;
+    padding: 20px;
+    border-radius: 15px;
+}
+.value div .safety{
+    width: 40%;
+}
+.value div .safety h5{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.value div .safety p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    word-spacing: 2px;
+}
+.value div .accountability{
+    width: 40%;
+}
+.value div .accountability h5{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.value div .accountability p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    word-spacing: 2px;
+}

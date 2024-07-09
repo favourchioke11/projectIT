@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #bebebe;
+}
+body nav{
+    background: #ffffff5a;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+nav h1{
+    color: #00000067;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav ul{
+    font-size: 25px;
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    display: block;
+}
+.home{
+    background: url(../media/home.webp);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+.home div{
+    padding: 30px;
+    line-height: 40px;
+    margin: 0 20px;
+
+}
+.home div h4{
+    text-transform: uppercase;
+    font-size: 20px;
+    word-spacing: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+.home div i{
+    color: #fdb633;
+    font-size: 20px;
+}
+.home div p{
+    font-size: 15px;
+    color: #ffffff;
+}
+.home div button{
+    background-color: #fdb633;
+    padding: 10px 20px;
+    font-size: 15px;
+    margin-top: 2rem;
+    border-radius: 10px;
+    color: #800080;
+}
+.manage div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 1rem 45px;
+    border-radius: 8px;
+    padding: 25px;
+}
+.manage h3{
+    text-transform: uppercase;
+    margin: 2rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.manage p{
+    text-align: center;
+    margin-top: -25px;
+    margin-bottom: 2rem;
+    text-transform: capitalize;
+}
+.manage div .anti{
+    background: #eaba60;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.manage div .anti h5{
+    margin: 20px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5rem;
+    letter-spacing: 1px;
+}
+.manage div .anti i{
+    text-align: left;
+    margin: 5rem;
+    font-size: 5rem;
+    color: #d863d8;
+    margin-top: -2px;
+}
+.manage div .start{
+    background: url(../media/workplace.webp);
+    display: cover;
+    background-size: cover;
+    width: min-content;
+    height: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.manage div .start h5{
+    margin: 20px;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffffbe;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-bottom: 4rem;
+}
+.manage div .start i{
+    margin: 4rem 7rem;
+    text-align: left;
+    font-size: 7rem;
+    color: #201b1bb6;
+    margin-top: -8px;
+}
+.manage div .strategy{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #c477c4;
+}
+.manage div .strategy h5{
+    margin: 20px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 2.8rem;
+    color: #bebebe;
+}
+.manage div .strategy i{
+    margin: 4rem 10rem;
+    font-size: 9rem;
+    margin-top: -1px;
+    color: #f9d780;
+}
+.manage div .consult{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #dd89dd;
+}
+.manage div .consult h5{
+    margin: 20px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 4rem;
+    letter-spacing: 1px;
+    color: #bebebe;
+}
+.manage div .consult i{
+    margin: 4rem 9rem;
+    font-size: 8rem;
+    margin-top: -8px;
+    color: #c1ae91;
+}
+.manage div .market{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #eaba60;
+}
+.manage div .market h5{
+    margin: 20px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 4rem;
+}
+.manage div .market i{
+    margin: 4rem 9rem;
+    font-size: 7rem;
+    margin-top: -8px;
+    color: #d76fd7;
+}
+.manage div .invest{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: url(../media/investment.webp);
+    width: min-content;
+    display: cover;
+    background-size: cover;
+}
+.manage div .invest h5{
+    margin: 20px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 3.5rem;
+    color: #362f2f89;
+}
+.manage div .invest i{
+    margin: 4rem 8rem;
+    font-size: 8rem;
+    margin-top: -8px;
+    color: #000000bb;
+}
+.work div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 100vh;
+}
+.work div .pic{
+    background: url(../media/contact.webp);
+    width: min-content;
+    display: cover;
+    width: 48%;
+    height: 90vh;
+    background-size: cover;
+    margin: 30px 5px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 15px;
+}
+.work div .learn{
+    width: 48%;
+    background-color: #d863d8;
+    padding: 60px;
+    border-radius: 10px;
+    color: #ffffff;
+    margin: 30px 5px;
+    height: 90vh;
+    margin-left: 5px;
+}
+.work div .learn h3{
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+.work div .learn p{
+    text-align: left;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 2px;
+}
+.work div .learn button{
+    background-color: orange;
+    padding: 10px;
+    height: 35px;
+}
+body .about p{
+    text-align: center;
+    margin: 30px;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    color: #845601;
+}
+.about p a{
+    color: purple;
+    font-size: 20px;
+}
+footer{
+    text-align: center;
+    text-transform: capitalize;
+    background: #d76fd7;
+    padding: 25px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}

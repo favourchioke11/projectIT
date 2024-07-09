@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 20px;
+    background: #1e0e0e38;
+}
+body header{
+    background: #557f11be;
+    border-radius: 10px;
+    padding: 15px;
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    color: white;
+}
+.home{
+    background: url(../media/download\ \(1\).jpeg);
+    background-size: cover;
+    height: 100vh;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.home h3{
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.details div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 25px;
+}
+.details div .detail1{
+    width: 40%;
+    line-height: 1.5rem;
+    font-size: 18px;
+}
+.details div .detail1 span{
+    font-size: large;
+    font-weight: 400;
+    line-height: 3rem;
+    font-size: 22px;
+}
+.details div .detail2{
+    width: 50%;
+    line-height: 25px;
+    border-radius: 20px;
+    padding: 30px 10px;
+    font-size: 18px;
+}
+.details div .detail2 span{
+    text-transform: capitalize;
+    line-height: 50px;
+    color: black;
+    font-size: 18px;
+}
+.about div {
+    line-height: 30px;
+    font-size: 18px;
+    padding: 0 30px;
+}
+.company h3{
+    text-transform: uppercase;
+    margin: 3rem 0;
+    text-align: center;
+    background: #00008b0e;
+    line-height: 4rem;
+    padding: 5px;
+    word-spacing: 7px;
+}
+.company p{
+    color: #0000008f;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 2.5rem;
+}
+.company span{
+    color: black;
+    text-transform: uppercase;
+    line-height: 20px;
+}
+.mission span{
+    text-transform: uppercase;
+    color: black;
+    
+}
+.mission p{
+    font-size: 18px;
+    color: #0000008f;
+    line-height: 1.8rem;
+}
+.terms h3{
+    text-transform: uppercase;
+    margin: 3rem 0;
+    text-align: center;background: #00008b0e;
+    line-height: 4rem;
+    padding: 5px;
+    word-spacing: 7px;
+}
